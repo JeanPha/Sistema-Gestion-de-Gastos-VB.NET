@@ -1,0 +1,53 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\PROYECTO_PERSONAL\\sistemaGestionGastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A59A4D63-2B1A-41F5-853E-B64DBAF96C4D}|sys_gestion_control_gastos\\sys_gestion_control_gastos.vbproj|c:\\proyecto_personal\\sistemagestiongastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\sys_gestion_control_gastos\\consultasql.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{A59A4D63-2B1A-41F5-853E-B64DBAF96C4D}|sys_gestion_control_gastos\\sys_gestion_control_gastos.vbproj|solutionrelative:sys_gestion_control_gastos\\consultasql.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A59A4D63-2B1A-41F5-853E-B64DBAF96C4D}|sys_gestion_control_gastos\\sys_gestion_control_gastos.vbproj|c:\\proyecto_personal\\sistemagestiongastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\sys_gestion_control_gastos\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form",
+      "RelativeMoniker": "D:0:0:{A59A4D63-2B1A-41F5-853E-B64DBAF96C4D}|sys_gestion_control_gastos\\sys_gestion_control_gastos.vbproj|solutionrelative:sys_gestion_control_gastos\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ConsultaSql.vb",
+              "DocumentMoniker": "C:\\PROYECTO_PERSONAL\\sistemaGestionGastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\sys_gestion_control_gastos\\ConsultaSql.vb",
+              "RelativeDocumentMoniker": "sys_gestion_control_gastos\\ConsultaSql.vb",
+              "ToolTip": "C:\\PROYECTO_PERSONAL\\sistemaGestionGastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\sys_gestion_control_gastos\\ConsultaSql.vb",
+              "RelativeToolTip": "sys_gestion_control_gastos\\ConsultaSql.vb",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-06-06T01:00:12.135Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.vb [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\PROYECTO_PERSONAL\\sistemaGestionGastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\sys_gestion_control_gastos\\Form1.vb",
+              "RelativeDocumentMoniker": "sys_gestion_control_gastos\\Form1.vb",
+              "ToolTip": "C:\\PROYECTO_PERSONAL\\sistemaGestionGastos\\sys_gestion_gastos\\sys_gestion_control_gastos\\sys_gestion_control_gastos\\Form1.vb [Dise\u00F1o]",
+              "RelativeToolTip": "sys_gestion_control_gastos\\Form1.vb [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2024-05-22T04:21:22.497Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

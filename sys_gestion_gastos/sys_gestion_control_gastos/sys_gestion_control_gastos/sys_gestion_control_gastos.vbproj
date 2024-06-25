@@ -1,0 +1,388 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props" Condition="Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{A59A4D63-2B1A-41F5-853E-B64DBAF96C4D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>sys_gestion_control_gastos.My.MyApplication</StartupObject>
+    <RootNamespace>sys_gestion_control_gastos</RootNamespace>
+    <AssemblyName>sys_gestion_control_gastos</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>sys_gestion_control_gastos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>sys_gestion_control_gastos.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.ReportViewer.Common, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.DataVisualization, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.DataVisualization.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.Design, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.ProcessingObjectModel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.ProcessingObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=15.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.ReportingServices.ReportViewerControl.Winforms.150.1620.0\lib\net40\Microsoft.ReportViewer.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.SqlServer.Types, Version=16.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.SqlServer.Types.160.1000.6\lib\net462\Microsoft.SqlServer.Types.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Net.Http" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="conexion.vb" />
+    <Compile Include="Configuracion.vb" />
+    <Compile Include="ConsultaSql.vb" />
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCategorias.Designer.vb">
+      <DependentUpon>frmCategorias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmCategorias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFechasDetalleGastos.Designer.vb">
+      <DependentUpon>frmFechasDetalleGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFechasDetalleGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFechasIngresosPorMetodo.Designer.vb">
+      <DependentUpon>frmFechasIngresosPorMetodo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFechasIngresosPorMetodo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFechasSumaGastos.Designer.vb">
+      <DependentUpon>frmFechasSumaGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFechasSumaGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFechasSumaIngresos.Designer.vb">
+      <DependentUpon>frmFechasSumaIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmFechasSumaIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGastos.Designer.vb">
+      <DependentUpon>frmGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirDetalleGastos.Designer.vb">
+      <DependentUpon>frmImprimirDetalleGastos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirDetalleGastos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirDetallesIngresos.Designer.vb">
+      <DependentUpon>frmImprimirDetallesIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirDetallesIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirSumaGastosFecha.Designer.vb">
+      <DependentUpon>frmImprimirSumaGastosFecha.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirSumaGastosFecha.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirUtilidades.Designer.vb">
+      <DependentUpon>frmImprimirUtilidades.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirUtilidades.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmIngresos.Designer.vb">
+      <DependentUpon>frmIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.vb">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.vb">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMetodosTransaccion.Designer.vb">
+      <DependentUpon>frmMetodosTransaccion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmMetodosTransaccion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTipos.Designer.vb">
+      <DependentUpon>frmTipos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frmTipos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frnImprimirSumaIngresos.Designer.vb">
+      <DependentUpon>frnImprimirSumaIngresos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="frnImprimirSumaIngresos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="sys_gestion_gastosDataSet.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>sys_gestion_gastosDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Variables.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCategorias.resx">
+      <DependentUpon>frmCategorias.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFechasDetalleGastos.resx">
+      <DependentUpon>frmFechasDetalleGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFechasSumaGastos.resx">
+      <DependentUpon>frmFechasSumaGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFechasSumaIngresos.resx">
+      <DependentUpon>frmFechasSumaIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirDetalleGastos.resx">
+      <DependentUpon>frmImprimirDetalleGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirSumaGastosFecha.resx">
+      <DependentUpon>frmImprimirSumaGastosFecha.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirUtilidades.resx">
+      <DependentUpon>frmImprimirUtilidades.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frnImprimirSumaIngresos.resx">
+      <DependentUpon>frnImprimirSumaIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="rptDetalleGastos.rdlc" />
+    <EmbeddedResource Include="rptDetallesIngresos.rdlc" />
+    <EmbeddedResource Include="frmFechasIngresosPorMetodo.resx">
+      <DependentUpon>frmFechasIngresosPorMetodo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGastos.resx">
+      <DependentUpon>frmGastos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirDetallesIngresos.resx">
+      <DependentUpon>frmImprimirDetallesIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmIngresos.resx">
+      <DependentUpon>frmIngresos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMetodosTransaccion.resx">
+      <DependentUpon>frmMetodosTransaccion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTipos.resx">
+      <DependentUpon>frmTipos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resourses\reportFacturasVencidas.rdlc" />
+    <EmbeddedResource Include="rptSaldo.rdlc" />
+    <EmbeddedResource Include="rptSumaGastosPorFechas.rdlc" />
+    <EmbeddedResource Include="rptSumaIngresosFechas.rdlc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+    <None Include="sys_gestion_gastosDataSet.xsc">
+      <DependentUpon>sys_gestion_gastosDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="sys_gestion_gastosDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>sys_gestion_gastosDataSet.Designer.vb</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="sys_gestion_gastosDataSet.xss">
+      <DependentUpon>sys_gestion_gastosDataSet.xsd</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resourses\7VDPUsBGIRIKzCUZsh6n--1--fpcki.jpg" />
+    <Content Include="Resourses\actualize-arrows-couple-in-circle.png" />
+    <Content Include="Resourses\add.png" />
+    <Content Include="Resourses\afip.png" />
+    <Content Include="Resourses\anadir.png" />
+    <Content Include="Resourses\businessman.png" />
+    <Content Include="Resourses\carrito.png" />
+    <Content Include="Resourses\carrito1.png" />
+    <Content Include="Resourses\categorias.png" />
+    <Content Include="Resourses\cerrar-sesion.png" />
+    <Content Include="Resourses\cliente.png" />
+    <Content Include="Resourses\clientes.png" />
+    <Content Include="Resourses\configuraciones.png" />
+    <Content Include="Resourses\download-button.png" />
+    <Content Include="Resourses\fondo2.jpg" />
+    <Content Include="Resourses\fondo3.jpg" />
+    <Content Include="Resourses\header1.jpg" />
+    <Content Include="Resourses\historial.png" />
+    <Content Include="Resourses\historial1.png" />
+    <Content Include="Resourses\icono_actualizar.png" />
+    <Content Include="Resourses\icono_agregar.png" />
+    <Content Include="Resourses\icono_eliminar.png" />
+    <Content Include="Resourses\icono_login.png" />
+    <Content Include="Resourses\icons8-accede-redondeado-derecho-64.png" />
+    <Content Include="Resourses\ico_actualizar.png" />
+    <Content Include="Resourses\ico_agregar.png" />
+    <Content Include="Resourses\ico_eliminar.png" />
+    <Content Include="Resourses\information %281%29.png" />
+    <Content Include="Resourses\inventario.png" />
+    <Content Include="Resourses\Lock-512.png" />
+    <Content Include="Resourses\Login-Button-PNG-Download-Image.png" />
+    <Content Include="Resourses\logoAFIP.png" />
+    <Content Include="Resourses\logo_bloom.jpeg" />
+    <Content Include="Resourses\LoVGPVFrFdsQRHehSwhk--1--gs6uj.jpg" />
+    <Content Include="Resourses\Minus_36877.png" />
+    <Content Include="Resourses\money.png" />
+    <Content Include="Resourses\multiple-users-silhouette %281%29.png" />
+    <Content Include="Resourses\nuevo-cliente.png" />
+    <Content Include="Resourses\nuevo-producto.png" />
+    <Content Include="Resourses\nuevo.png" />
+    <Content Include="Resourses\password.png" />
+    <Content Include="Resourses\plus.png" />
+    <Content Include="Resourses\print.png" />
+    <Content Include="Resourses\producto.png" />
+    <Content Include="Resourses\question.png" />
+    <Content Include="Resourses\refresh.png" />
+    <Content Include="Resourses\repair.ico" />
+    <Content Include="Resourses\reporte.png" />
+    <Content Include="Resourses\reporte1.png" />
+    <Content Include="Resourses\reportes.png" />
+    <Content Include="Resourses\rounded-remove-button.png" />
+    <Content Include="Resourses\screwdriver-and-wrench-crossed.png" />
+    <Content Include="Resourses\search.png" />
+    <Content Include="Resourses\search1.png" />
+    <Content Include="Resourses\search11.png" />
+    <Content Include="Resourses\search12.png" />
+    <Content Include="Resourses\shield.png" />
+    <Content Include="Resourses\user.png" />
+    <Content Include="Resourses\user1.png" />
+    <Content Include="Resourses\user2.png" />
+    <Content Include="Resourses\usuario.png" />
+    <Content Include="Resourses\venta.png" />
+    <Content Include="Resourses\ventas.png" />
+    <Content Include="Resourses\x-button.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.SqlServer.Types.160.1000.6\build\net462\Microsoft.SqlServer.Types.props'))" />
+  </Target>
+</Project>

@@ -1,0 +1,406 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+sys_gestion_control_gastos
+</name>
+</assembly>
+<members>
+<member name="T:sys_gestion_control_gastos.My.Resources.Resources">
+<summary>
+  Clase de recurso fuertemente tipado, para buscar cadenas traducidas, etc.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.ResourceManager">
+<summary>
+  Devuelve la instancia de ResourceManager almacenada en caché utilizada por esta clase.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.Culture">
+<summary>
+  Reemplaza la propiedad CurrentUICulture del subproceso actual para todas las
+  búsquedas de recursos mediante esta clase de recurso fuertemente tipado.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.actualize_arrows_couple_in_circle">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.Lock_512">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.logo_bloom">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.plus">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.rounded_remove_button">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.search1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:sys_gestion_control_gastos.My.Resources.Resources.user1">
+<summary>
+  Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet">
+<summary>
+Represents a strongly typed in-memory cache of data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.categoriasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.descripcionesDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.gastosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ingresosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.metodos_transaccionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.tipos_transaccionDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.usuariosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerResumenFinancieroDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerDetallesIngresosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerSumaIngresosEntreFechasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.sumaIngresosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.DetallesGastosDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.spUtilidadDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.SumaIngresosPorFechasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.SumaGastosPorFechasDataTable">
+<summary>
+Represents the strongly named DataTable class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.categoriasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.descripcionesRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.gastosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ingresosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.metodos_transaccionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.tipos_transaccionRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.usuariosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerResumenFinancieroRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerDetallesIngresosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerSumaIngresosEntreFechasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.sumaIngresosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.DetallesGastosRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.spUtilidadRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.SumaIngresosPorFechasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.SumaGastosPorFechasRow">
+<summary>
+Represents strongly named DataRow class.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.categoriasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.descripcionesRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.gastosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ingresosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.metodos_transaccionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.tipos_transaccionRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.usuariosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerResumenFinancieroRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerDetallesIngresosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.ObtenerSumaIngresosEntreFechasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.sumaIngresosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.DetallesGastosRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.spUtilidadRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.SumaIngresosPorFechasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSet.SumaGastosPorFechasRowChangeEvent">
+<summary>
+Row event argument class
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.categoriasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.descripcionesTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.gastosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.ingresosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.metodos_transaccionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.tipos_transaccionTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.usuariosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.ObtenerResumenFinancieroTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.ObtenerDetallesIngresosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.ObtenerSumaIngresosEntreFechasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.sumaIngresosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.DetallesGastosTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.spUtilidadTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.SumaIngresosPorFechasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.SumaGastosPorFechasTableAdapter">
+<summary>
+Represents the connection and commands used to retrieve and save data.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager">
+<summary>
+TableAdapterManager is used to coordinate TableAdapters in the dataset to enable Hierarchical Update scenarios
+</summary>
+</member>
+<member name="M:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.UpdateUpdatedRows(sys_gestion_control_gastos.sys_gestion_gastosDataSet,System.Collections.Generic.List{System.Data.DataRow},System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Update rows in top-down order.
+</summary>
+</member>
+<member name="M:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.UpdateInsertedRows(sys_gestion_control_gastos.sys_gestion_gastosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Insert rows in top-down order.
+</summary>
+</member>
+<member name="M:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.UpdateDeletedRows(sys_gestion_control_gastos.sys_gestion_gastosDataSet,System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Delete rows in bottom-up order.
+</summary>
+</member>
+<member name="M:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.GetRealUpdatedRows(System.Data.DataRow[],System.Collections.Generic.List{System.Data.DataRow})">
+<summary>
+Remove inserted rows that become updated rows after calling TableAdapter.Update(inserted rows) first
+</summary>
+</member>
+<member name="M:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.UpdateAll(sys_gestion_control_gastos.sys_gestion_gastosDataSet)">
+<summary>
+Update all changes to the dataset.
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.UpdateOrderOption">
+<summary>
+Update Order Option
+</summary>
+</member>
+<member name="T:sys_gestion_control_gastos.sys_gestion_gastosDataSetTableAdapters.TableAdapterManager.SelfReferenceComparer">
+<summary>
+Used to sort self-referenced table's rows
+</summary>
+</member>
+</members>
+</doc>
